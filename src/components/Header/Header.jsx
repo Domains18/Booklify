@@ -14,9 +14,7 @@ const Header = () => {
           </h2>
           <br />
           <p className="header-text fs-18 fw-3">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam beatae
-            sapiente quibusdam consequatur perspiciatis facere laboriosam non
-            nesciunt at id repudiandae, modi iste? Eligendi, rerum!
+            Booklify will help you search and find every book you want to read.
           </p>
           <SearchForm />
         </div>

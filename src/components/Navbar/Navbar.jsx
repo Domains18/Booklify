@@ -47,12 +47,12 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link
+              {/* <Link
                 to="about"
                 className="nav-link text-uppercase text-white fs-22 fw-6 ls-1"
               >
                 about
-              </Link>
+              </Link> */}
             </li>
           </ul>
         </div>

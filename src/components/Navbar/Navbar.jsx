@@ -3,8 +3,8 @@ import "./Navbar.css";
 import logoImg from "../../images/logo.png";
 import { AiOutlineMenuFold } from "react-icons/ai";
 import { Link } from "react-router-dom";
-import {BiUserCircle} from "react-icons/bi";
-
+import { BiUserCircle } from "react-icons/bi";
+import Login from "../auth/Login";
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   const handleNavbar = () => setToggleMenu(!toggleMenu);
@@ -41,10 +41,10 @@ const Navbar = () => {
           <ul className="navbar-nav">
             <li className="nav-item">
               <Link
-                to="about"
+                to="/login"
                 className="nav-link text-uppercase text-white fs-22 fw-6 ls-1"
               >
-                <BiUserCircle className="login-btn"/>
+                <BiUserCircle className="login-btn" />
               </Link>
             </li>
           </ul>

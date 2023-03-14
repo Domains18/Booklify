@@ -1,0 +1,7 @@
+.layout{
+    height: 100vh;
+    background: linear-gradient(90deg, teal 50%, purple 90%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

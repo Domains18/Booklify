@@ -1,0 +1,25 @@
+.Login{
+    height: 300px;
+    
+}
+
+
+
+.login-form{
+    width: 340px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.auth{
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.message{
+    color: red;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}

@@ -1,8 +1,12 @@
 import React from 'react'
+import { Outlet } from 'react-router-dom';
 
+import './styles.css'
 const defaultLayout = () => {
   return (
-    <div>defaultLayout</div>
+    <section className='layout'>
+    <Outlet/>
+    </section>
   )
 }
 

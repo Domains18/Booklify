@@ -15,7 +15,7 @@ const Register = () => {
                     <input className='auth' type="text" placeholder='Email' />
                     <input type="password" placeholder='Password' className='auth' />
                     <input type="password" placeholder=' Confirm Password' className='auth' />
-                    <button type='submit' className='submit btn'>Register</button>
+                    <button type='submit' className='submit btn' >Register</button>
                 </form>
                 <p className='message'>
                     Have an account? <Link to='/login'>Login</Link>

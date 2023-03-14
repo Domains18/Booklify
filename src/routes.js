@@ -13,14 +13,14 @@ import Error from './components/err/Error';
 
 
 const routes = createBrowserRouter([
-    {
-        path: "/", element: <DefaltLayout />,
-        children: [
-            {path: '/', element: <Navigate to="/login"/>},
-            { path: '/login', element: <Login /> },
-            { path: '/signup', element: <Register /> }
-        ],
-    },
+    // {
+    //     path: "/", element: <DefaltLayout />,
+    //     children: [
+    //         {path: '/', element: <Navigate to="/login"/>},
+    //         { path: '/login', element: <Login /> },
+    //         { path: '/signup', element: <Register /> }
+    //     ],
+    // },
     {
         path: "/", element: <Home />,
         children: [

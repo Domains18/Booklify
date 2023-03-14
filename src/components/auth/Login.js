@@ -1,14 +1,9 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from 'react'
 
-const Login = () => {
+const login = () => {
   return (
-    <div>login
-      <button> 
-        <Link></Link>
-      </button>
-    </div>
+    <div>login</div>
   )
 }
 
-export default Login
+export default login

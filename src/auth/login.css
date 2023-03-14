@@ -1,9 +1,12 @@
 .Login{
     height: 300px;
-    
+    position: absolute;
 }
 
-
+.form{
+    top: -50px;
+    position: relative;
+}
 
 .login-form{
     width: 340px;
